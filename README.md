@@ -1,4 +1,13 @@
 integration-view.and.data.api-sharepoint
 ========================================
 
-Shows how you can upload files and view them inside SharePoint using the Autodesk viewer
+You can find a blog post about this here http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html
+
+This repo contains files that show how you can upload files and view them inside SharePoint using the Autodesk viewer.
+
+There are three main parts to this:
+- MyViewerPage.aspx: this html page uses the Autodesk Viewer to show the file whose urn is  passed to it in the URL as the urn parameter. It also requires the accessToken that you get when authenticating with the viewing service to be also passed in the URL
+- MyVisualWebPart project: a C# Visual Web Part project which has a user control that can be used inside a SharePoint Web Part page. This will list all the files found in the Documents library of a SharePoint site and uses MyViewerPage.aspx inside an iframe to show the file in the viewer
+- MyWebPart.aspx: this is the SharePoint page which embeds the above Visual Web part project's control that lists the SharePoint documents 
+
+ 
