@@ -1,5 +1,9 @@
-integration-view.and.data.api-sharepoint
-========================================
+#Autodesk View and Data API sample demos integration with sharepoint
+
+
+##Description
+
+*This sample is part of the [Developer-Autodesk/Autodesk-View-and-Data-API-Samples](https://github.com/Developer-Autodesk/autodesk-view-and-data-api-samples) repository.*
 
 You can find a blog post about this here http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html
 
@@ -10,4 +14,23 @@ There are three main parts to this:
 - MyVisualWebPart project: a C# Visual Web Part project which has a user control that can be used inside a SharePoint Web Part page. This will list all the files found in the Documents library of a SharePoint site and uses MyViewerPage.aspx inside an iframe to show the file in the viewer
 - MyWebPart.aspx: this is the SharePoint page which embeds the above Visual Web part project's control that lists the SharePoint documents 
 
- 
+
+##Dependencies
+
+None
+
+##Setup/Usage Instructions
+
+* Get your consumer key and secret key from http://developer.autodesk.com
+* Todo* 
+
+
+##Written by 
+
+Adam Nagy
+
+
+
+
+
+    
