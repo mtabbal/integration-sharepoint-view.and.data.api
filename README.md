@@ -22,7 +22,7 @@ None
 ##Setup/Usage Instructions
 
 * Get your consumer key and secret key from http://developer.autodesk.com
-* Todo* 
+* Todo 
 
 
 ##Written by 
