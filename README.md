@@ -16,12 +16,13 @@ There are three main parts to this:
 
 ##Dependencies
 
-None
+* SharePoint: it was built using SharePoint 2010 server, but might work with later versions as well.
+* RestSharpSigned: you can get it through the NuGet Visual Studio AddIn  
 
 ##Setup/Usage Instructions
 
 * Get your consumer key and secret key from http://developer.autodesk.com
-* TODO
+* Replace kConsumerKey and kSecretKey of the Constants class inside "MyVisualWebPart / MyVisualWebPart / VisualWebPart1 / VisualWebPart1UserControl.ascx.cs" with the ones you got
 
 ## License
 
