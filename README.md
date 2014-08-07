@@ -22,7 +22,9 @@ There are three main parts to this:
 ##Setup/Usage Instructions
 
 * Get your consumer key and secret key from http://developer.autodesk.com
-* Replace kConsumerKey and kSecretKey of the Constants class inside "MyVisualWebPart / MyVisualWebPart / VisualWebPart1 / VisualWebPart1UserControl.ascx.cs" with the ones you got
+* Replace kConsumerKey and kSecretKey of the Constants class inside "MyVisualWebPart / MyVisualWebPart / VisualWebPart1 / VisualWebPart1UserControl.ascx.cs" with the ones you got.
+
+Please refer to http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html for more detailed instructions.
 
 ## License
 
