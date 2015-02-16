@@ -2,8 +2,6 @@
 
 ##Description
 
-*This sample is part of the [Developer-Autodesk/Autodesk-View-and-Data-API-Samples](https://github.com/Developer-Autodesk/autodesk-view-and-data-api-samples) repository.*
-
 You can find a blog post about this here http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html
 
 This repo contains files that show how you can upload files and view them inside SharePoint using the Autodesk viewer.
