@@ -2,7 +2,7 @@
 
 ##Description
 
-You can find a blog post about this here http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html
+You can find a blog post about this here http://adndevblog.typepad.com/cloud_and_mobile/2014/07/integrate-viewer-with-sharepoint.html
 
 This repo contains files that show how you can upload files and view them inside SharePoint using the Autodesk viewer.
 
@@ -22,7 +22,7 @@ There are three main parts to this:
 * Get your consumer key and secret key from http://developer.autodesk.com
 * Replace kConsumerKey and kSecretKey of the Constants class inside "MyVisualWebPart / MyVisualWebPart / VisualWebPart1 / VisualWebPart1UserControl.ascx.cs" with the ones you got.
 
-Please refer to http://adndevblog.typepad.com/cloud_and_mobile/2014/06/integrate-viewer-with-sharepoint.html for more detailed instructions.
+Please refer to http://adndevblog.typepad.com/cloud_and_mobile/2014/07/integrate-viewer-with-sharepoint.html for more detailed instructions.
 
 ## License
 
